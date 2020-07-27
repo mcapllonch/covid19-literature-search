@@ -1,5 +1,7 @@
 data_source/
 corddata/
 venv/
+__pycache__/
+.ipynb_checkpoints/
 *.sublime-project
 *.sublime-workspace
