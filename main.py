@@ -9,16 +9,6 @@ import config as cfg
 
 
 
-def find_kw(kw, text):
-	"""
-	Find a keyword 'kw' in 'text' and return its number of occurences.
-	kw must be lowered.
-	"""
-
-	# Count
-	count = text.count(kw)
-	return count
-
 def prepare_stopwords():
 	""" Prepare the set of words to be stopped in English. """
 	cfg.stopwords = set(stopwords.words('english'))
